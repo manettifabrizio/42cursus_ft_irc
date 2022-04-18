@@ -26,54 +26,33 @@ IRC client programs connect to an IRC server to access a specific channel. IRC s
 
 ## Handled commands
 
-- [ ] Connection
+- [x] Connection
   - [x] PASS
   - [x] NICK
   - [x] USER
-  - [ ] [SERVER]
   - [x] OPER
   - [x] QUIT
-  - [ ] [SQUIT]
-- [ ] Channel operations
+- [x] Channel operations
   - [x] JOIN
   - [x] PART
   - [x] MODE
   - [x] TOPIC
   - [x] NAMES
-  - [ ] LIST
+  - [x] LIST
   - [x] INVITE
   - [x] KICK
-- [ ] Server
-  - [ ] VERSION
-  - [ ] STATS
-  - [ ] [LINKS]
-  - [ ] TIME
-  - [ ] [CONNECT]
-  - [ ] [TRACE]
-  - [ ] ADMIN
-  - [ ] INFO
 
 - [x] Sending messages
   - [x] PRIVMSG
   - [x] NOTICE
-- [ ] User
+- [x] User
   - [x] WHO
-  - [ ] WHOIS
-  - [ ] WHOWAS
-- [ ] Miscellaneous
-  - [ ] KILL
+  - [x] WHOIS
+- [x] Miscellaneous
+  - [x] KILL
   - [x] PING
   - [x] PONG
-  - [ ] ERROR
-- [ ] Optional
-  - [ ] AWAY
-  - [ ] REHASH
-  - [ ] RESTART
-  - [ ] SUMMON
-  - [ ] USERS
-  - [ ] WALLOPS
-  - [ ] USERHOST
-  - [ ] ISON
+  - [x] ERROR
 
 
 ## Sources
